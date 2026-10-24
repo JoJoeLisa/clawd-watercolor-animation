@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-17",
+  "validation": "skill-creator quick_validate pass",
+  "initializer": "all choices succeed; existing target refuses overwrite",
+  "portableBrowserQA": [
+    {
+      "template": "demo",
+      "offlineBrowserLoads": true,
+      "representativeTimes": [
+        0.7,
+        2.8,
+        5.5,
+        7.5,
+        10.5
+      ],
+      "deterministic": {
+        "mean": 0.00018627025462962963,
+        "max": 4
+      },
+      "errors": []
+    },
+    {
+      "template": "coastal",
+      "offlineBrowserLoads": true,
+      "representativeTimes": [
+        0.7,
+        7,
+        29.5,
+        36,
+        58,
+        83,
+        88
+      ],
+      "deterministic": {
+        "mean": 0.0011647617669753086,
+        "max": 6
+      },
+      "errors": []
+    }
+  ],
+  "scope": "Only reported examples/frames were tested; this does not validate arbitrary new stories.",
+  "demoExport": {
+    "frames": 264,
+    "duration": 11,
+    "size": [
+      1920,
+      1080
+    ],
+    "fullDecode": "pass",
+    "audio": "none"
+  },
+  "coastalExport": "Representative seven scenes rendered; full 90.4s not rerendered for this skill packaging.",
+  "exactR8CorePreserved": true,
+  "dependencyTest": "Existing local Node/Python/Chromium/FFmpeg dependencies reused; no clean npm install was performed."
+}

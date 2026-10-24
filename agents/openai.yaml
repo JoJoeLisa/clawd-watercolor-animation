@@ -1,0 +1,4 @@
+interface:
+  display_name: "Clawd 水彩绘本动画"
+  short_description: "制作保留纸纹、颜料晕染和手绘线条的灵动 Clawd 水彩动画"
+  default_prompt: "使用 $clawd-watercolor-animation，沿用水彩绘本画风制作一段有情绪、自然动作与连贯镜头的 Clawd 动画。"

@@ -1,0 +1,11 @@
+{
+  "name": "clawd-watercolor-demo",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "video": "node build.mjs"
+  },
+  "dependencies": {
+    "puppeteer-core": "25.12.0"
+  }
+}

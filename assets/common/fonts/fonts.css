@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'Ma Shan Zheng';
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url(MaShanZheng.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Permanent Marker';
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url(PermanentMarker.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Shantell Sans';
+  font-style: normal;
+  font-weight: 800;
+  font-display: block;
+  src: url(ShantellSans.ttf) format('truetype');
+}
